@@ -1,6 +1,6 @@
-# THE TERMINAL
-##COMANDOS PARA BORRAR ARCHIVOS
-###Crear un directorio llamado test
+# THE TERMINAL</br>
+##COMANDOS PARA BORRAR ARCHIVOS </br>
+###Crear un directorio llamado test </br>
 ```bash
 mkdir test
 ```
