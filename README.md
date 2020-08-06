@@ -1,7 +1,18 @@
 # THE TERMINAL
-#COMANDOS PARA BORRAR ARCHIVOS
-```bash mkdir es para crear un directorio```
-ls es para listar elementos dentro de un directorio
+##COMANDOS PARA BORRAR ARCHIVOS
+###Crear un directorio llamado test
+```bash
+mkdir test
+```
+###Listar los elementos dentro de un directorio actual
+```bash
+ls
+```
+###Listar los elementos del directorio superior
+```bash
+ls ../
+```
+###Listar el contenido
 ''' por ejemplo con "ls ../" listamos el contenido del directorio superior
 ls -al es para listar todos los elementos incluyendo los elementos ocultos
 rm is to delete files
