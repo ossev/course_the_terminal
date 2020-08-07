@@ -1,25 +1,39 @@
 # THE TERMINAL</br>
-##COMANDOS PARA BORRAR ARCHIVOS </br>
-###Crear un directorio llamado test </br>
+## COMANDOS PARA BORRAR ARCHIVOS </br>
+### Crear un directorio llamado test </br>
 ```bash
 mkdir test
 ```
-###Listar los elementos dentro de un directorio actual
+### Listar los elementos dentro de un directorio actual
 ```bash
 ls
 ```
-###Listar los elementos del directorio superior
+### Listar los elementos del directorio superior
 ```bash
 ls ../
 ```
-###Listar el contenido
-''' por ejemplo con "ls ../" listamos el contenido del directorio superior
-ls -al es para listar todos los elementos incluyendo los elementos ocultos
-rm is to delete files
-mv is to move files from a location to another
-''' por ejemplo, con este cÃ³digo "mv ../test.py ." movemos un archivo desde la carpeta superior hasta la carpeta actual'''
-rmdir es para borrar un directorio
-''' por ejemplo: "rmdir test/"
-'''hay que tener encuenta que no se puede borrar un directorio que tenga archivos adentro
-ls -t es para ordenar los archivos por fecha de modificaciÃ³n
-ls -x es para ordenas los archivos por el nombre primero y luego por la extensiÃ³n
+### Listar todo el contenido incluyendo los archivos ocultos
+```bash
+ls -al
+```
+### Borrar todos los elementos
+```bash
+rm 'file_name'
+```
+
+### Mover archivos
+```bash
+mv 'file_name'
+```
+#### Por ejemplo, en el siguiente código se mueve el archivo hacia la parte superior
+```bash
+mv ../test.py
+```
+### Borrar un directorio. Para borrar un directorio primero se debe borrar todos los elementos internos.
+```bash
+rmdir test/
+```
+Otros comandos
+
+- ls -t es para ordenar los archivos por fecha de modificación
+- ls -x ordena primero por nombre y luego por extensión
