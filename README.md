@@ -35,5 +35,14 @@ rmdir test/
 ```
 Otros comandos
 
-- ls -t es para ordenar los archivos por fecha de modificación
-- ls -x ordena primero por nombre y luego por extensión
+- __ls -t__ es para ordenar los archivos por fecha de modificación
+- __ls -x__ ordena primero por nombre y luego por extensión
+- __ls -X__ ordena primero por extensión y luego por nombre
+- __ls -l__ muestra toda la información: usuario, grupo, permisos, tamaño, fecha y hora de creación.
+- __ls -lh__ muestra lo mismo que ls -l pero con unidades de tamaño de KM, MB.
+- __ls -R__ muestra el contenido de todos los subdirectorios de forma recursiva
+- __ls -S__ Ordena los resultados por tamaño de archivo
+- __pwd__ Print Working Directory, se usa para mostrar el directorio actual en el que nos encontranmos trabajando.
+- __cd__ se usa para cambiar el directorio
+- __cp carpetaOrigen carpetaDestino __ copiar un archivo
+
